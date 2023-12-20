@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package sort
 
 // recursive bubblesort
 
@@ -31,6 +29,7 @@ func swap(x,y int32) (int32, int32) {
 	y = aux
 	return x,y
 }
+/*
 
 func main() {
 	arr := []int32{5,4,3,2,1,0,6}
@@ -38,3 +37,5 @@ func main() {
 	iterativeArr := iterativeBubbleSort(arr)
 	fmt.Println(recursiveArr, iterativeArr)
 }
+
+*/
